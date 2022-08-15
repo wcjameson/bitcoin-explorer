@@ -21,7 +21,7 @@ Just paste in a bitcoin address, or a transaction id to get info.
 * npm run build
 * npm run start
 
-## Known Bugs
+## Bugs
 
 * Feel free to contact me at williamjameson90@gmail.com
 
