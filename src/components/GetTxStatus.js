@@ -18,7 +18,7 @@ const GetTxStatus = () => {
   }
 
   return (
-    <div>
+    <div className="stats">
       <label>Enter Transaction Id </label>
       <input onChange={fetchTxStatus} />
       {txStatus && txStatus.confirmed && (

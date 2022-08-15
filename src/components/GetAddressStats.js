@@ -18,7 +18,7 @@ const GetAddressStats = () => {
   }
 
   return (
-    <div>
+    <div className="stats">
       <label>Enter Bitcoin Address </label>
       <input onChange={fetchAddress} />
       {addressStats && addressStats.chain_stats && addressStats.mempool_stats && (
