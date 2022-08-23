@@ -32,4 +32,8 @@ export const GlobalStyles = createGlobalStyle`
     color: white;
     width:200px;
     padding:20px;
+  }
+  
+  a:link {
+    color: white;
   }` // #282c34 #2b6963 greenish - #2b5069
