@@ -13,7 +13,7 @@ function App() {
       <GlobalStyles />
 
       <nav className='navbar'>
-        <Link className='link' to="/">Home</Link>
+        <Link className='link' to="/">Resources</Link>
         <Link className='link' to="address">Address</Link>
         <Link className='link' to="tx">Transaction</Link>
         <Link className='link' to="pools">MiningPools</Link>
@@ -26,7 +26,6 @@ function App() {
         <Route path="/pools" element={<GetMiningPool />} />
       </Routes>
       <div>
-        Footer Element
       </div>
       {/* <Header />
       <GetAddressStats />
